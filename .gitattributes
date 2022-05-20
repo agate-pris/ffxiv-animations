@@ -1,0 +1,8 @@
+*.css text eol=lf
+*.data -text
+*.gitattributes text eol=lf
+*.html text eol=lf
+*.ico -text
+*.js text eol=lf
+*.png -text
+*.wasm -text
