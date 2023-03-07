@@ -62,3 +62,5 @@ crashlytics-build.properties
 # Assets
 Assets/TextMesh Pro.meta
 Assets/TextMesh Pro/
+Assets/Unity.VisualScripting.Generated.meta
+Assets/Unity.VisualScripting.Generated/
