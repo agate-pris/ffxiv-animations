@@ -95,6 +95,7 @@ GameObject:
   - component: {fileID: 7637313095334438855}
   - component: {fileID: 1552258350178954573}
   - component: {fileID: 7551953433479642069}
+  - component: {fileID: 4383019929762268215}
   m_Layer: 0
   m_Name: Protean_Wave_Near
   m_TagString: Untagged
@@ -117,7 +118,7 @@ Transform:
   - {fileID: 7637313095340076302}
   - {fileID: 3334774078550174691}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0.12, y: 0, z: 0}
 --- !u!895512359 &1552258350178954573
 AimConstraint:
@@ -164,6 +165,26 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!1818360608 &4383019929762268215
+PositionConstraint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7637313095334438854}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Weight: 1
+  m_TranslationAtRest: {x: 0, y: 0, z: 0}
+  m_TranslationOffset: {x: 0, y: 0, z: 0}
+  m_AffectTranslationX: 0
+  m_AffectTranslationY: 0
+  m_AffectTranslationZ: 1
+  m_Active: 1
+  m_IsLocked: 1
+  m_Sources:
+  - sourceTransform: {fileID: 0}
+    weight: 1
 --- !u!1 &7637313095340076296
 GameObject:
   m_ObjectHideFlags: 0
